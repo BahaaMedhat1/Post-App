@@ -14,7 +14,7 @@ The app allows users to:
 
 # 🚀 Live Demo
 
-🔗 Live Preview: [Add Your Live URL Here]
+🔗 Live Preview: [Post App](https://post-app-steel-two.vercel.app/)
 
 ---
 
@@ -164,6 +164,9 @@ npm run lint
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 Developed by Bahaa Medhat
+
+- GitHub: [github.com/BahaaMedhat1](https://github.com/BahaaMedhat1)
+- LinkedIn: [linkedin.com/in/bahaa-wanas-9797b923a](https://www.linkedin.com/in/bahaa-wanas-9797b923a/)

@@ -164,6 +164,9 @@ npm run lint
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 Developed by Bahaa Medhat
+
+- GitHub: [github.com/BahaaMedhat1](https://github.com/BahaaMedhat1)
+- LinkedIn: [linkedin.com/in/bahaa-wanas-9797b923a](https://www.linkedin.com/in/bahaa-wanas-9797b923a/)

@@ -2,12 +2,10 @@ import { ArrowLeft } from "lucide-react";
 import { User } from "lucide-react";
 import { Calendar } from "lucide-react";
 
-import { usePost } from "@/hooks/usePost";
 import { useParams, useNavigate } from "react-router-dom";
 
 function PostInfo({ postData }) {
-  const { users } = usePost();
-  const { posts } = postData;
+  const { posts, users } = postData;
 
   const { id } = useParams();
   const [currentPost] = posts.filter((post) => post.id === Number(id));
@@ -28,7 +26,7 @@ function PostInfo({ postData }) {
           {currentPost?.title}
         </p>
         <div className="flex items-center gap-8">
-          <span className="author ">
+          <span className="author">
             <User size={18} /> {currentUser?.name}
           </span>
           <span className="date">

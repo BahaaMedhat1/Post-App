@@ -24,7 +24,7 @@ The app allows users to:
 
 ![Preview 1](./src/assets/preview-1.png)
 
-## Posts Filtering
+## Creating New Post
 
 ![Preview 2](./src/assets/preview-2.png)
 

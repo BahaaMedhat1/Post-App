@@ -7,8 +7,7 @@ import { usePost } from "@/hooks/usePost";
 import { useNavigate } from "react-router-dom";
 
 function Form({ postData, onIsSubmit }) {
-  // const { users } = usePost();
-  const { posts, setPosts, users } = postData;
+  const { setPosts, users } = postData;
 
   const formSchema = z.object({
     title: z.string().min(1, { message: "Post title is required" }),

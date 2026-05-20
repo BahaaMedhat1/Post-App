@@ -1,8 +1,6 @@
 import { Search } from "lucide-react";
-import { usePost } from "@/hooks/usePost";
 
 function SearchBar({ currentAuthor, onCurrentAuthor, postData }) {
-  // const { users, search, setSearch } = usePost();
   const { users, search, setSearch, setCurrentAuthor } = postData;
 
   return (

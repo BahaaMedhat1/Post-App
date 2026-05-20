@@ -1,7 +1,4 @@
-import { usePost } from "@/hooks/usePost";
 import { useNavigate } from "react-router-dom";
-
-import Post from "./Post";
 import {
   Pagination,
   PaginationContent,
@@ -12,8 +9,9 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination";
 
+import Post from "./Post";
+
 function AllPosts({ postData }) {
-  // const { currentPage, setCurrentPage } = usePost();
   const { posts, search, currentAuthor, currentPage, setCurrentPage } =
     postData;
 
@@ -21,10 +19,7 @@ function AllPosts({ postData }) {
   const startIndex = (currentPage - 1) * postsPerPage;
 
   const endIndex = startIndex + postsPerPage;
-  // const currentPosts =
-  //   currentAuthor === 0
-  //     ? posts.slice(startIndex, endIndex)
-  //     : posts.filter((post) => post.userId === currentAuthor);
+
   let currentPosts = [];
   if (currentAuthor > 0) {
     currentPosts = posts.filter((post) => post.userId === currentAuthor);

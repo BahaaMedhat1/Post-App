@@ -3,7 +3,6 @@ import SearchBar from "@/components/SearchBar";
 import AllPosts from "@/components/AllPosts";
 
 import { ScrollText } from "lucide-react";
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 function PostList({ postData }) {

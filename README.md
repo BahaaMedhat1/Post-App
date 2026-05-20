@@ -14,7 +14,7 @@ The app allows users to:
 
 # 🚀 Live Demo
 
-🔗 Live Preview: [Add Your Live URL Here]
+🔗 Live Preview: [Post App](https://post-app-steel-two.vercel.app/)
 
 ---
 

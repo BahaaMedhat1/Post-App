@@ -6,7 +6,6 @@ import { ScrollText } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 function PostList({ postData }) {
-  // const [currentAuthor, setCurrentAuthor] = useState(0);
   const navigate = useNavigate();
 
   return (
